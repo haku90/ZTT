@@ -76,11 +76,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="channel.cpp" />
     <ClCompile Include="coder.cpp" />
+    <ClCompile Include="mod.cpp" />
+    <ClCompile Include="receiver.cpp" />
     <ClCompile Include="ztt_ah.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="channel.h" />
     <ClInclude Include="coder.h" />
+    <ClInclude Include="mod.h" />
+    <ClInclude Include="receiver.h" />
     <ClInclude Include="ztt_ah.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

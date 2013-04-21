@@ -21,12 +21,30 @@
     <ClCompile Include="coder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="mod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="channel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="receiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ztt_ah.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="coder.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mod.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="channel.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="receiver.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

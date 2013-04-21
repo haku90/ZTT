@@ -1,21 +1,13 @@
 /********************************************//**
- * \file   ztt_ah.h
- * \brief  Plik naglowkowy dla glownego programu.
+ * \file   channel.cpp
+ * \brief  Definicja obiektu kana³.
  * \author Adam Hakowski (adam.hakowski@gmail.com)
  * \date   2013-04-21
  ***********************************************/
-#ifndef ZTT_AH_H
-#define ZTT_AH_H
-//***********************************************
+#include "ztt_ah.h"
 /////////////////////////////////////////////////
-#include<iostream>
+
 //-----------------------------------------------
-using namespace std;
-//-----------------------------------------------
-#include"coder.h"
-#include"mod.h"
-#include"channel.h"
-#include"reciver.h"
+Channel::Channel(){}
 /////////////////////////////////////////////////
 //***********************************************
-#endif /*ZTT_AH_H */
