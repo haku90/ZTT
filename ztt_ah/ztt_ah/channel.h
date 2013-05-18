@@ -16,7 +16,7 @@ class Channel
 {
 public:
 
-	Channel(){}			//<! Konstruktor.
+	Channel();	//<! Konstruktor.
 
 private:
 

@@ -12,15 +12,31 @@
  *	Implementacja Koder.
  *
  */
+struct dataCod
+{
+	int value;	//!< Wartoœæ.
+	int nextState;	//!< Nastêpny stan kodera.
+	//! Konsturktor domyœlny.
+	dataCod();
+	//! Konstruktor.
+	dataCod(int val,int stat):value(val),nextState(stat)
+	{
+	};
+};
+
 class Coder
 {
 	
 
 public:
+	 dataCod* tab[4][4];
+
+	Coder();
 
 private:
 
 };
+
 /////////////////////////////////////////////////
 //***********************************************
 #endif /*CODER_H*/

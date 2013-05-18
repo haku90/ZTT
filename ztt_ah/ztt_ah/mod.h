@@ -16,7 +16,10 @@ class MOD
 {
 	
 public:
-
+	 complex<double>* tab[8];
+	MOD();
+	// Metoda która koduje dane i moduluje dla jednej ramki.
+	void encodeAndMod(Coder* pCode,list<int>* pLtData,list<complex<double>>* plLtEncoAndMod);
 private:
 
 };
