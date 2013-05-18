@@ -79,6 +79,7 @@
     <ClCompile Include="channel.cpp" />
     <ClCompile Include="coder.cpp" />
     <ClCompile Include="mod.cpp" />
+    <ClCompile Include="rangen.cpp" />
     <ClCompile Include="receiver.cpp" />
     <ClCompile Include="ztt_ah.cpp" />
   </ItemGroup>
@@ -86,6 +87,7 @@
     <ClInclude Include="channel.h" />
     <ClInclude Include="coder.h" />
     <ClInclude Include="mod.h" />
+    <ClInclude Include="rangen.h" />
     <ClInclude Include="receiver.h" />
     <ClInclude Include="ztt_ah.h" />
   </ItemGroup>

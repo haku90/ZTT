@@ -17,7 +17,9 @@ class Channel
 public:
 
 	Channel();	//<! Konstruktor.
-
+	double eSignal(list<complex<double>>* plt);
+	double amplitude(double eSignal,double N0);
+	complex<double> partOfNoise(double amplitude);
 private:
 
 };

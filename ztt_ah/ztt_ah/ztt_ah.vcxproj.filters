@@ -30,6 +30,9 @@
     <ClCompile Include="receiver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="rangen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ztt_ah.h">
@@ -45,6 +48,9 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="receiver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rangen.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

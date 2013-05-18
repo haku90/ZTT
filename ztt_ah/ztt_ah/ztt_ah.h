@@ -19,6 +19,7 @@ using namespace std;
 #include"mod.h"
 #include"channel.h"
 #include"receiver.h"
+#include"rangen.h"
 /////////////////////////////////////////////////
 //***********************************************
 #endif /*ZTT_AH_H */
