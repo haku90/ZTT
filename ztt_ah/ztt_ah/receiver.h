@@ -12,11 +12,17 @@
  *	Implementacja Odbiornika.
  *
  */
-class Receiver
+class Receiver:public MOD,public Coder
 {
 public:
 
-	Receiver();		//<! Konstruktor.
+	Receiver();					//!< Konstruktor.
+	
+	double tabActualDist[8];	//!< Tablica akutalnych odleg³oœci.
+
+	void calcSurviever(list <complex<double>>* pDataWithNoise);
+	void calcDistance(complex<double> num);
+	int min();				//!< Funkcja zwraca indeks najmniejszego elementu w tablicy.
 
 private:
 

@@ -16,6 +16,8 @@ int main(int argc, char *argv[])
 	Coder cd;
 	MOD mod;
 	Channel ch;
+	Receiver rec;
+
 	double gen;
 	int data;
 
@@ -55,6 +57,8 @@ int main(int argc, char *argv[])
 	for(list<complex<double>>::iterator it=ltNoisePlusData.begin();it!=ltNoisePlusData.end();++it)
 		cout<<*it<<endl;
 	cout<<"..................."<<endl;
+
+	rec.calcSurviever(&ltNoisePlusData);
 
 	return 0;
 	
