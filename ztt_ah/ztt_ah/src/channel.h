@@ -1,11 +1,11 @@
 /********************************************//**
- * \file   channel.h
- * \brief  Definicja obiektu kana³.
+ * \file   mod.h
+ * \brief  Plik naglowkowy dla kana³u.
  * \author Adam Hakowski (adam.hakowski@gmail.com)
- * \date   2013-04-21
+ * \date   2013-07-05
  ***********************************************/
 #ifndef CHANNEL_H
-#define	CHANNEL_H
+#define CHANNEL_H
 /////////////////////////////////////////////////
 /*! \brief Kana³.
  *
@@ -15,14 +15,16 @@
 class Channel
 {
 public:
-
-	Channel();	//<! Konstruktor.
-	double eSignal(list<complex<double>>* plt);
-	double amplitude(double eSignal,double N0);
-	complex<double> partOfNoise(double amplitude);
-private:
-
+	double SNR;
+	double noisePower;
+	list<complex<double>>lst;
+	Channel(double S):SNR(S){};
+	void calcNoisePower(){noisePower=1/SNR;}
+	void addNoise(list<complex<double>>*ptrlistMod);
+	void disp();
+	
 };
+
 /////////////////////////////////////////////////
 //***********************************************
-#endif /*CHANNEL_H*/
+#endif /*CHANNEL_H */

@@ -12,14 +12,19 @@
 #include<complex>
 #include<list>
 #include<math.h>
+#include<fstream>
 //-----------------------------------------------
 using namespace std;
 //-----------------------------------------------
-#include"coder.h"
-#include"mod.h"
-#include"channel.h"
-#include"receiver.h"
-#include"rangen.h"
+#include "rangen.h"
+#include "encoder.h"
+typedef complex<double> compx;
+#include "mod.h"
+#include "channel.h"
+extern ofstream cost1;
+#include "receiver.h"
+//-----------------------------------------------
+
 /////////////////////////////////////////////////
 //***********************************************
 #endif /*ZTT_AH_H */

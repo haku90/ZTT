@@ -1,57 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="src">
+      <UniqueIdentifier>{cadc8294-db73-4957-bc68-9a4064167a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="output">
+      <UniqueIdentifier>{41c72806-af64-40f7-af3d-3eefb1ed55be}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ztt_ah.cpp">
-      <Filter>Source Files</Filter>
+    <Text Include="config.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\encoder.cpp">
+      <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="coder.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\ztt_ah.cpp">
+      <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="mod.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\mod.cpp">
+      <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="channel.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\channel.cpp">
+      <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="receiver.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\rangen.cpp">
+      <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="rangen.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\receiver.cpp">
+      <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ztt_ah.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="src\encoder.h">
+      <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="coder.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="src\ztt_ah.h">
+      <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="mod.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="src\mod.h">
+      <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="channel.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="src\channel.h">
+      <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="receiver.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="src\rangen.h">
+      <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="rangen.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="src\receiver.h">
+      <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

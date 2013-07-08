@@ -76,20 +76,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="channel.cpp" />
-    <ClCompile Include="coder.cpp" />
-    <ClCompile Include="mod.cpp" />
-    <ClCompile Include="rangen.cpp" />
-    <ClCompile Include="receiver.cpp" />
-    <ClCompile Include="ztt_ah.cpp" />
+    <Text Include="config.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="channel.h" />
-    <ClInclude Include="coder.h" />
-    <ClInclude Include="mod.h" />
-    <ClInclude Include="rangen.h" />
-    <ClInclude Include="receiver.h" />
-    <ClInclude Include="ztt_ah.h" />
+    <ClCompile Include="src\channel.cpp" />
+    <ClCompile Include="src\encoder.cpp" />
+    <ClCompile Include="src\mod.cpp" />
+    <ClCompile Include="src\rangen.cpp" />
+    <ClCompile Include="src\receiver.cpp" />
+    <ClCompile Include="src\ztt_ah.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\channel.h" />
+    <ClInclude Include="src\encoder.h" />
+    <ClInclude Include="src\mod.h" />
+    <ClInclude Include="src\rangen.h" />
+    <ClInclude Include="src\receiver.h" />
+    <ClInclude Include="src\ztt_ah.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

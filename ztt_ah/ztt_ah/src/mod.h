@@ -1,28 +1,30 @@
 /********************************************//**
  * \file   mod.h
- * \brief  Definicja obiektu modulator.
+ * \brief  Plik naglowkowy dla modulatora.
  * \author Adam Hakowski (adam.hakowski@gmail.com)
- * \date   2013-04-21
+ * \date   2013-07-05
  ***********************************************/
 #ifndef MOD_H
 #define MOD_H
 /////////////////////////////////////////////////
 /*! \brief Modulator.
  *
- *	Implementacja Modulatora.
+ *	Implementacja Modulatora
  *
  */
-class MOD
+class Mod
 {
-	
 public:
-	 complex<double>* tab[8];
-	MOD();
-	// Metoda która koduje dane i moduluje dla jednej ramki.
-	void encodeAndMod(Coder* pCode,list<int>* pLtData,list<complex<double>>* plLtEncoAndMod);
-private:
+	Mod();
+	compx ModTab[4];
+	list<complex<double>>lst;
+
+	compx execute(int input){return ModTab[input];}
+	void create(list<int>*ptrlst);
+	void disp();
 
 };
+
 /////////////////////////////////////////////////
 //***********************************************
-#endif /*MOD_H*/
+#endif /*MOD_H */
